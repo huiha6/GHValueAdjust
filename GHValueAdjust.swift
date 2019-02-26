@@ -9,7 +9,7 @@
 
 import UIKit
 
-class GHValueAdjustView: UIView {
+public class GHValueAdjustView: UIView {
     private var origPoint: CGPoint = CGPoint.zero
 
     override init(frame: CGRect) {
@@ -84,7 +84,7 @@ class GHValueAdjustView: UIView {
     /// 设置音量 0-100
     ///
     /// - Parameter percent: 0-100 Int
-    func setVolumeValue(_ percent: Int) {
+    public func setVolumeValue(_ percent: Int) {
         let value = bounds.height*CGFloat(percent)/100
         setThumbValue(value)
     }
