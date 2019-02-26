@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/gaoguanghui/GHValueAdjust.git", :tag => s.version }
   s.source_files  = "GHValueAdjust.{swift}"
 
-  s.resource = './GHValueAdjust.bundle'
+  s.resource = 'GHValueAdjust.bundle'
 
   s.framework  = "UIKit"
   s.requires_arc = true
