@@ -110,7 +110,7 @@ public class GHValueAdjustView: UIView {
     }
 
     private func imageFromBundle(named name: String) -> UIImage {
-        let bundlePath = Bundle.main.path(forResource: "GHValueAdjustView", ofType: ".bundle")
+        let bundlePath = Bundle.main.path(forResource: "GHValueAdjust", ofType: ".bundle")
         let path = Bundle(path: bundlePath!)
         let img = UIImage(named: name, in: path, compatibleWith: nil)
         return img!
