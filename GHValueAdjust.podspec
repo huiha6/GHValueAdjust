@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "GHValueAdjust"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "GHValueAdjust"
   s.homepage     = "https://github.com/gaoguanghui/GHValueAdjust"
   s.license      = "MIT"
