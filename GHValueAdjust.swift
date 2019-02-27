@@ -12,7 +12,7 @@ import UIKit
 public class GHValueAdjustView: UIView {
     private var origPoint: CGPoint = CGPoint.zero
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
 
         backgroundColor = UIColor.init(red: 21/255.0, green: 24/255.0, blue: 38/255.0, alpha: 1.0)
@@ -118,7 +118,7 @@ public class GHValueAdjustView: UIView {
 
 }
 
-private class ThumbChangeView: UIView {
+class ThumbChangeView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = UIColor(red: 238/255.0, green: 242/255.0, blue: 251/255.0, alpha: 1.0)
